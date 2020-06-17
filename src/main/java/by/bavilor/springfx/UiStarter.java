@@ -1,6 +1,7 @@
 package by.bavilor.springfx;
 
 import by.bavilor.springfx.event.spring.StageReadyEvent;
+import de.codecentric.centerdevice.javafxsvg.SvgImageLoaderFactory;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
@@ -11,7 +12,8 @@ public class UiStarter extends Application {
   private ConfigurableApplicationContext applicationContext;
 
   @Override
-  public void start(Stage stage) {
+  public void start(final Stage stage) {
+    SvgImageLoaderFactory.install();
     applicationContext.publishEvent(new StageReadyEvent(stage));
   }
 

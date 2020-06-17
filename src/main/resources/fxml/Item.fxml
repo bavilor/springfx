@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="by.bavilor.springfx.controller.ItemController" styleClass="item">
+
+  <HBox spacing="3.0" styleClass="firstRow">
+    <Label text="$controller.text1"/>
+    <Label text="$controller.text1"/>
+    <Button text="Hello"/>
+  </HBox>
+</VBox>

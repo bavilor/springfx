@@ -1,0 +1,14 @@
+.root {
+}
+
+.root > .navigation {
+  -fx-min-width: 24.0;
+  -fx-max-width: 24.0;
+}
+
+.root > .navigation-button {
+  -fx-min-width: 24.0;
+  -fx-max-width: 24.0;
+  -fx-min-height: 24.0;
+  -fx-max-height: 24.0;
+}
