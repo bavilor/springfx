@@ -16,7 +16,7 @@ public class FxmlUtil {
   public static <T extends Parent> Optional<T> loadFxml(final String fxmlName) {
     try {
       return Optional.of(FXMLLoader.load(FxmlUtil.class.getResource(fxmlName), I18N.RESOURCE_BUNDLE));
-    } catch (IOException e) {
+    } catch (IOException | NullPointerException e) {
       e.printStackTrace();
       return Optional.empty();
     }

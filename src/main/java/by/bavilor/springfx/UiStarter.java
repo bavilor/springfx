@@ -25,6 +25,7 @@ public class UiStarter extends Application {
   @Override
   public void stop() {
     applicationContext.stop();
+    System.exit(0);
     Platform.exit();
   }
 }

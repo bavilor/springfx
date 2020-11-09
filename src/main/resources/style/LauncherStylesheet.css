@@ -1,0 +1,33 @@
+.launcher {
+  -fx-pref-width: 400.0;
+  -fx-pref-height: 250.0;
+}
+
+.launcher > .icon-pane {
+  -fx-alignment: center;
+}
+
+.launcher > .input-pane {
+  -fx-alignment: center;
+  -fx-spacing: 8.0;
+}
+
+.launcher > .input-pane > .input {
+  -fx-alignment: center-left;
+  -fx-min-width: 300.0;
+  -fx-max-width: 300.0;
+}
+
+.launcher > .input-pane > .input > .input-name {
+  -fx-font-size: 14.0;
+}
+
+.launcher > .input-pane > .input > .text-field {
+
+}
+
+.launcher > .control-box {
+  -fx-alignment: center;
+  -fx-spacing: 8.0;
+  -fx-padding: 0 0 24.0 0;
+}
