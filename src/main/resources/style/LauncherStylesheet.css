@@ -1,6 +1,7 @@
 .launcher {
   -fx-pref-width: 400.0;
   -fx-pref-height: 250.0;
+  -fx-padding: 24.0;
 }
 
 .launcher > .icon-pane {
@@ -29,5 +30,4 @@
 .launcher > .control-box {
   -fx-alignment: center;
   -fx-spacing: 8.0;
-  -fx-padding: 0 0 24.0 0;
 }
